@@ -44,7 +44,7 @@
       "http://localhost:11434/*"
     ],
     "permissions": [
-      "http://localhost:11434/*",
+     
       "scripting",
       "storage",
       "activeTab",
