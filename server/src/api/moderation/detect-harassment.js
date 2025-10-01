@@ -9,7 +9,7 @@ let redisClient = null;
 const initRedisClient = async () => {
   try {
     redisClient = redis.createClient({
-        username: 'default',
+        username: 'safire',
         password: process.env.REDIS_PASS,
         socket: {
           host: process.env.REDIS_HOST,
