@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../src/assets/fonts/Futura-Book-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura-md';
+  src: url('../src/assets/fonts/Futura-medium-bt.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URW';
+  src: url('../src/assets/fonts/URWClassico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URW-italic';
+  src: url('../src/assets/fonts/URWClassico-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'URW-bold';
+  src: url('../src/assets/fonts/URWClassico-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URW-bold-italic';
+  src: url('../src/assets/fonts/URWClassico-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@import "tailwindcss";
+
+:root {
+  --font-futura: Futura, "sans";
+  --font-futura-md: Futura-md, "sans";
+  --font-urw: URW, "sans";
+  --font-urw-italic: URW-italic, "sans";
+  --font-urw-bold: URW-bold, "sans";
+  --font-urw-bold-italic: URW-bold-italic, "sans";
+}
+
+body{
+  background-color: black;
+  
+}
